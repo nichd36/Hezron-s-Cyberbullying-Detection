@@ -106,8 +106,8 @@ def finalClean_text(txt):
     return txt
 
 # loading the saved model
-loaded_model = joblib.load(open('/Users/nichdylan/Documents/Natural Language Processing/Hezron/cyberbullying_SVM_model.sav', 'rb')) #rb means read as binary
-vectorizer = joblib.load(open('/Users/nichdylan/Documents/Natural Language Processing/Hezron/tfidf_fit.sav', 'rb'))
+loaded_model = joblib.load(open('cyberbullying_SVM_model.sav', 'rb')) #rb means read as binary
+vectorizer = joblib.load(open('tfidf_fit.sav', 'rb'))
 
 def hezron(text):
         text_f = finalClean_text(text)
