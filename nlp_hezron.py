@@ -124,22 +124,22 @@ def hezron(text):
         prob_otherBully = round((prob[0][5])*100)
 
         if prediction[0] == 0 : 
-                return("This is most likely not cyberbullying with " + str(prob_nonBully) + "%")
+                return("HEZRON SAD, this is not cyberbullying " + str(prob_nonBully) + "%")
 
         elif prediction[0] == 1:
-                return("This is most likely gender bullying with " + str(prob_gender) + "%")
+                return("Yayy, this is most likely gender bullying with " + str(prob_gender) + "%")
         
         elif prediction[0] == 2: 
-                return("This is most likely religion bullying with " + str(prob_religion) + "%")
+                return("Good, Hezron likey. This is most likely religion bullying with " + str(prob_religion) + "%")
         
         elif prediction[0] == 3: 
-                return("This is most likely age bullying with " + str(prob_age) + "%")
+                return("Good boy, this is most likely age bullying with " + str(prob_age) + "%")
         
         elif prediction[0] == 4: 
-                return("This is most likely ethinicity bullying with " + str(prob_ethnicity) + "%")
+                return("Nice job kid, this is most likely ethinicity bullying with " + str(prob_ethnicity) + "%")
         
         elif prediction[0] == 5: 
-                return('This is most likely other cyberbullying with ' + str(prob_otherBully) + '%')
+                return('Hezron approve, this is most likely other cyberbullying with ' + str(prob_otherBully) + '%')
                 
 
 
