@@ -11,9 +11,9 @@ from nltk.corpus import stopwords
 from tensorflow import keras
 from tensorflow.keras.models import load_model
 
-image_path = "/Users/nichdylan/Documents/Natural Language Processing/NLP fake news/DSC_0424-Edited.jpg"
+image_path = "comment.png"
 
-st.set_page_config(layout="wide", page_title="Fake News Detector", page_icon = image_path)
+st.set_page_config(layout="wide", page_title="Cyberbullying Detector", page_icon = image_path)
 
 padding = 20
 
